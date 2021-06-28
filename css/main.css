@@ -1,0 +1,52 @@
+header {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header > div {
+    display: inline-block;
+    margin-top: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+
+.top-left > a, .top-right > a {
+    margin-right: 10px;
+}
+
+.page-center {
+    margin-top: 10%;
+}
+
+.logo {
+    scale: 50%;
+}
+
+input[type="text"] {
+    border-radius: 20px;
+    border-style: solid;
+    text-indent: 2em;
+    width: 40%;
+    height: 2.2em;
+    margin-bottom: 20px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+footer > div {
+    margin-top: 1em;
+    margin-right: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
