@@ -1,12 +1,18 @@
-header {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
 header > div {
-    display: inline-block;
+    display: flex;
+    flex-wrap: nowrap;
     margin-top: 1em;
     margin-right: 1em;
     margin-left: 1em;
@@ -15,6 +21,20 @@ header > div {
 
 .top-left > a, .top-right > a {
     margin-right: 10px;
+}
+
+span {
+    color: gray;
+}
+
+.account-icon {
+    position: absolute;
+    border-radius: 50%;
+    scale: 55%;
+    position: relative;
+    margin-top: -15px;
+    margin-right: -10px;
+
 }
 
 .page-center {
@@ -35,6 +55,7 @@ input[type="text"] {
 }
 
 footer {
+    color: rgb(71, 71, 71);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -49,4 +70,15 @@ footer > div {
     margin-right: 1em;
     margin-left: 1em;
     margin-bottom: 1em;
+}
+
+.leaf-icon {
+    scale: 70%;
+}
+.center-footer {
+    display: flex;
+}
+
+.bottom-left > a, .bottom-right > a {
+    margin-right: 10px;
 }
